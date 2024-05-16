@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://qu.ax/ejyT.jpeg" rel="icon">
+    <!-- Meta Tags -->
+    <meta name="description" content="Hello Everyone! Welcome to our website popular-movies, where you can find references for the movies you want to watch. This website is created by Naila Rahmadany & Habib Alfarisy S.">
+    <meta property="og:title" content="Popular Movies">
+    <meta property="og:description" content="Hello Everyone! Welcome to our website popular-movies, where you can find references for the movies you want to watch. This website is created by Naila Rahmadany & Habib Alfarisy S.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://popular-movies.vercel,app>
+    <meta property="og:image" content="https://qu.ax/ejyT.jpeg">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Popular Movies">
+    <meta name="twitter:description" content="Hello Everyone! Welcome to our website popular-movies, where you can find references for the movies you want to watch. This website is created by Naila Rahmadany & Habib Alfarisy S.">
+    <meta name="twitter:image" content="https://qu.ax/ejyT.jpeg">
+    <title>Popular Movies</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- FontAwesome CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="light-mode">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand d-flex align-items-center" href="#">
+                <i class="fa-solid fa-film me-2"></i>Popular Movies
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#"><i class="fa-solid fa-house"></i> Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://21cineplex.com/">Bioskop</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://www.netflix.com/id-en/">Netflix</a>
+                    </li>
+                    <li class="nav-item">
+                        <button id="modeToggle" class="btn btn-outline-secondary ms-3">
+                            <i class="fa-solid fa-moon"></i>
+                        </button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <h1 class="text-center my-4">Popular Movies</h1>
+    <div class="container">
+        <div class="row" id="movie-container"></div>
+        <div class="d-flex justify-content-between mt-4">
+            <button id="prevButton" class="btn btn-primary mb-4" disabled>Previous</button>
+            <button id="nextButton" class="btn btn-primary mb-4">Next</button>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-light text-center text-lg text-dark start mt-4">
+        <div class="container p-4">
+            <div class="row">
+                <!-- <div class="col-lg-6 col-md-12 mb-4 mb-md-0 text-center"> -->
+                    <h5 class="text-uppercase"><i class="fa-solid fa-phone"></i> About</h5>
+                    <p>
+    Hello Everyone! Welcome to our website <strong>popular-movies</strong>, where you can find references for the movies you want to watch.<br>
+    This website is created by Naila Rahmadany & Habib Alfarisy S.
+</p>
+
+                </div>
+            </div>
+        </div>
+        <div class="text-center text-dark p-3">
+            © 2024 Copyright:
+            <a class="text-dark" href="https://popular-movies.vercel.app/">popular-movies.vercel.app</a>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS and dependencies (Popper.js and Bootstrap Bundle) -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha384-KyZXEAg3QhqLMpG8r+Knujsl5+5hb7d8eNJn7tG8a2a1tjLyy1ndbqNc6cXXJ+Vn" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>   <script src="script.js"></script>
+</body>
+</html>
